@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+ctransformers==0.2.5 #if we run quantised model on cpu then we need ctransformaers.
+ctransformers==0.2.5
+sentence-transformers==2.2.2
+pinecone-client==2.2.4
+langchain==0.0.225
+flask
+pypdf
+python-dotenv
+# -e .
+=======
+ctransformers==0.2.5 #if we run quantised model on cpu then we need ctransformaers.
+sentence-transformers==2.2.2
+pinecone-client==2.2.4
+langchain==0.0.225
+flask
+pypdf
+python-dotenv
+>>>>>>> 952c0ad4bfdbe3de2510926aabc72fc38c2831ed

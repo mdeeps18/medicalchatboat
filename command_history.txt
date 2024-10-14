@@ -1,0 +1,13 @@
+d:
+cd EVERSANA
+cd GENAI
+conda create --name myenv python=3.8 -y
+conda activate myenv
+pip install langchain
+pip install openai
+pip show langchain
+conda install jupyter
+jupyter notebook
+pip install ipykernel
+python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+doskey /history > command_history.txt
